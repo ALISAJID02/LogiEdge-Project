@@ -15,11 +15,11 @@ app.use("/api/items", itemRoutes);
 app.use("/api/bills", billRoutes);
 
 app.get("/", (req, res) => {
-  res.send("LogiEdge Backend Running 🚀");
+  res.send("LogiEdge Backend Running ");
 });
 
 const PORT = process.env.PORT || 5000;
 
 app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
+  console.log(`🚀 Server running on port ${PORT}`);
 });
